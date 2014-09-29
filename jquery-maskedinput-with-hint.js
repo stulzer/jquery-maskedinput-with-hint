@@ -368,10 +368,9 @@ $.fn.extend({
               settings.completed.call(input);
           }, 0);
         });
-                if (chrome && android) {
-                    input.on("keyup.mask", keypressEvent);
-                }
-        checkVal(); //Perform initial check for existing values
+        if (chrome && android) {
+            input.on("keyup.mask", keypressEvent);
+        }
     });
   }
 });
