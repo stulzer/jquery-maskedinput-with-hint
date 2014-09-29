@@ -12,7 +12,7 @@
     "hint"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/stulzer/jquery.maskedinput",
+  "homepage": "https://github.com/stulzer/jquery-maskedinput-with-hint",
   "ignore": [
     "**/.*",
     "node_modules",
