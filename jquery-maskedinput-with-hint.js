@@ -303,8 +303,10 @@ $.fn.extend({
             lastMatch = i;
           }
         }
+
         input.removeClass('format-error');
-        input.siblings('.mask-alert').remove();
+        $('.mask-alert').remove();
+
         if (allow) {
           writeBuffer();
         } else if (lastMatch + 1 < partialPosition) {
